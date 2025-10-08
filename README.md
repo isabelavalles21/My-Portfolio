@@ -24,10 +24,6 @@ Elegant and approachable colour scheme
 ## Gradient Use
 Used a linear gradient background on all pages
 
-## Viewports
-- Mobile: max-width 600px
-- Desktop: above 600px
-
 ## Code and resources
 - Lecture notes and examples from tutorials
 

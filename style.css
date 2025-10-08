@@ -1,0 +1,87 @@
+/* === Isabela's Portfolio Styles === */
+/* Colour Palette
+   #EDC7B7 (blush pink)
+   #EEE2DC (off white)
+   #BAB2B5 (warm gray)
+   #123C69 (deep blue)
+   #AC3B61 (rose magenta)
+*/
+
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right,#EEE2DC, #EDC7B7);
+    color: #123C69;
+}
+
+/* Header */
+header {
+    background-color: #123C69;
+    color: #EEE2DC;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: #EEE2DC;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #AC3B61;
+}
+
+/* Main Content */
+main {
+    background-color: #EEE2DC;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #BAB2B5;
+    color: #123C69;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Contact form */
+form {
+    background-color: #EDC7B7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #BAB2B5;
+    border-radius: 5px;
+    margin-top: 5px
+}
+
+button {
+    background-color: #ac3b61;
+    color: #EEE2DC;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #123C69;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        background: linear-gradient(to bottom, #EEE2DC, #EDC7B7);
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+}    

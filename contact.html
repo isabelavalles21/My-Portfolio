@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Contact |Isabela's Portfolio</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 961px)">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 481px) and (max-width: 960px)">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 480px)">
+    </head>
+    <body>
+        <header>
+        <h1> Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="about.html">About Me</a> 
+            <a href="projects.html">Projects</a> 
+            <a href="contact.html">Contact</a>
+        </nav>
+        </header>
+        <main>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"required><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" pattern="\\d{10}" placeholder="1234567890" required><br><br>
+                
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Contact: isabela.valles@ontariotechu.net | 2025 Isabela V.</p>
+        </footer>
+    </body>
+</html>
